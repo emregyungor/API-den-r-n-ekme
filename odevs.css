@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('pngtree-black-geometric-background-ideal-for-commercial-activities-posters-and-black-friday-image_3622059.jpg');
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.products{
+    position: absolute;
+    padding: 0.2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px,1fr));
+    row-gap: 10px;
+    width: 85vw;
+    margin: 10px 10%;
+
+    
+}
+.product{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background: white;
+    padding: 0 0.5rem;
+    border-radius: 5px;
+    line-height: 25px;
+}
+h5{
+    text-align: center;
+    color: white;
+
+}
+.product img{
+    width: 150px;
+    height: 150px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+    object-fit: scale-down;
+}
+.sepeteat{
+    position: absolute;
+    padding: 0.5rem 0.5rem;
+    background: rgb(66, 66, 66);
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.sepeteat:hover{
+    background: black;
+}
+.sepeteat i {
+    margin-left: 5px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    color: rgb(54, 31, 1);
+}
